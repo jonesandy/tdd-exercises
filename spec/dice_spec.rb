@@ -28,6 +28,11 @@ describe Dice do
       dice.throw(4)
     end
 
+    it 'should output result of throws' do
+      message = "You rolled: 2 & 2"
+      expect { dice.throw(2) }.to output(message).to_stdout
+    end
+
   end
 
 end

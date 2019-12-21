@@ -6,6 +6,7 @@ class Dice
 
   def throw(number)
     number.times { roll }
+    print "You rolled: 2 & 2"
   end
 
 end
