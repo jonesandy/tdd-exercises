@@ -7,6 +7,14 @@ My process will be to follow the **RED** **GREEN** **REFACTOR** strategy.
 
 I will also use this repository as practice for setting up basic Travis files and CodeClimate integration.
 
+## Table of contents
+
+*  [Installation](#installation)
+*  [Tech Stack](#tech-stack) 
+*  [Examples](#examples)
+    * [Student](#student)
+    
+
 ## Installation
 
 Clone or download repository.   
@@ -67,3 +75,30 @@ And I want to see the average of my last 3 ratings
 The process was to imagine how I would use the program, build tests for those scenarios and then write the code to make those tests pass. Once I have a passing test I can then refactor if needed.
 
 Code example found [here](lib/student.rb). Test file found [here](spec/student_spec.rb).
+
+### Dice
+
+Using TDD to build a single Dice object based on the following user stories.
+
+```
+As a board game player,
+So that I can play a game
+I want to be able to roll a dice
+
+As a board game player,
+So that I know how many steps I should move
+Rolling a dice should give me a number between 1 and 6
+
+As a dice app developper,
+So that I give players a good game experience
+I want the dice roll to be randomly picked
+
+As a board game player,
+So that I can play many types of games
+I want to be able to roll any number of dice at the same time
+
+As a board game player,
+So that I know what my score was when I rolled several dice
+I want to get the result of each dice roll
+```
+
