@@ -1,9 +1,11 @@
 # Test driven development
-[![Maintainability](https://api.codeclimate.com/v1/badges/8df57e2cc1de188d3e75/maintainability)](https://codeclimate.com/github/jonesandy/tdd-exercises/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/8df57e2cc1de188d3e75/test_coverage)](https://codeclimate.com/github/jonesandy/tdd-exercises/test_coverage)
+[![Build Status](https://travis-ci.com/jonesandy/tdd-exercises.svg?branch=master)](https://travis-ci.com/jonesandy/tdd-exercises) [![Maintainability](https://api.codeclimate.com/v1/badges/8df57e2cc1de188d3e75/maintainability)](https://codeclimate.com/github/jonesandy/tdd-exercises/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/8df57e2cc1de188d3e75/test_coverage)](https://codeclimate.com/github/jonesandy/tdd-exercises/test_coverage) 
 
 This repository is for practicing TDD. The code contained in this repository will be accumulated from multiple practice assignments, tests and articles. Small summaries of each code file will be displayed below.
 
 My process will be to follow the **RED** **GREEN** **REFACTOR** strategy.
+
+I will also use this repository as practice for setting up basic Travis files and CodeClimate integration.
 
 ## Installation
 
@@ -16,6 +18,7 @@ git clone
 Requires Ruby version > 2.6.5 
    
 ```bash
+# to check ruby version
 ruby -v
 ```
 
@@ -41,12 +44,14 @@ rspec
 * [RSpec](https://rspec.info/) used for testing.
 * [SimpleCov](https://github.com/colszowka/simplecov) used for test coverage. 
 * [Rubocop](https://github.com/rubocop-hq/rubocop) used for style guide.
+* [CodeClimate](https://codeclimate.com/) used for maintainabilty badges and test coverage reports.
+* [Travis CI](https://travis-ci.com/) used for build testing.
 
 ## Examples
 
 ### Student
 
-This exercise builds basic helper methods for simple scenarios.
+This exercise test drives basic methods for simple scenarios.
 
 ```
 As a student
