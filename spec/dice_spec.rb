@@ -17,6 +17,7 @@ describe Dice do
   end
 
   context 'when rolling mutiple dice' do
+    srand(2)
 
     it 'should roll twice' do
       expect(dice).to receive(:roll).twice
@@ -28,9 +29,14 @@ describe Dice do
       dice.throw(4)
     end
 
-    it 'should output result of throws' do
-      message = "You rolled: 2 & 2"
+    it 'should output 6 and 1' do
+      message = "You rolled: 6 & 1"
       expect { dice.throw(2) }.to output(message).to_stdout
+    end
+
+    it 'should output 4 and 3 and 4' do
+      message = "You rolled: 4 & 3 & 4"
+      expect { dice.throw(3) }.to output(message).to_stdout
     end
 
   end

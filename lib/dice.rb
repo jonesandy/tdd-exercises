@@ -5,8 +5,15 @@ class Dice
   end
 
   def throw(number)
-    number.times { roll }
-    print "You rolled: 2 & 2"
+    output = "You rolled: "
+    throws = []
+
+    number.times do
+      throws << roll
+    end
+
+    print output
+    print throws.join(" & ")
   end
 
 end
