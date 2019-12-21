@@ -14,7 +14,8 @@ class Student
   end
 
   def motivation_history
-    3
+    sum_last_three = @motivation.last(3).sum
+    "Average of last three scores is: #{sum_last_three / 3}"
   end
 
 end
