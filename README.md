@@ -10,7 +10,7 @@ Clone or download repository.
 git clone
 ```
 
-Requires Ruby version > 2.3.0. 
+Requires Ruby version > 2.6.5 
    
 ```bash
 ruby -v
