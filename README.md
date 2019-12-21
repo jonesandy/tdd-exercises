@@ -102,3 +102,4 @@ So that I know what my score was when I rolled several dice
 I want to get the result of each dice roll
 ```
 
+This example keeps all methods inside one class. Ideally I would have broken out the throws into a seperate class that rolled multiple Dice objects to get score. But brief was to use one object to create the user stories.
