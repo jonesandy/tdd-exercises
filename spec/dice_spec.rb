@@ -8,10 +8,19 @@ describe Dice do
     expect(dice).to respond_to(:roll)
   end
 
-  context 'when rolling dice' do
+  context 'when rolling single dice' do
     
     it 'should give number between 1 and 6' do
       expect(dice.roll).to be_between(1, 6)
+    end
+
+  end
+
+  context 'when rolling mutiple dice' do
+
+    it 'should roll twice' do
+      expect(dice).to receive(:roll).twice
+      dice.throw(2)
     end
 
   end
