@@ -17,4 +17,9 @@ describe Student do
     expect(student.track_motivation(5)).to eq([3, 5])
   end
 
+  it 'returns average of last 3 scores' do
+    3.times { student.track_motivation(3) }
+    expect(student.motivation_history).to eq(3)
+  end
+
 end

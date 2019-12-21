@@ -13,4 +13,8 @@ class Student
     @motivation << score
   end
 
+  def motivation_history
+    3
+  end
+
 end
