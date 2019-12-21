@@ -65,3 +65,5 @@ And I want to see the average of my last 3 ratings
 ```
 
 The process was to imagine how I would use the program, build tests for those scenarios and then write the code to make those tests pass. Once I have a passing test I can then refactor if needed.
+
+Code example found [here](lib/student.rb).
