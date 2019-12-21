@@ -1,4 +1,5 @@
 # Test driven development
+[![Maintainability](https://api.codeclimate.com/v1/badges/8df57e2cc1de188d3e75/maintainability)](https://codeclimate.com/github/jonesandy/tdd-exercises/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/8df57e2cc1de188d3e75/test_coverage)](https://codeclimate.com/github/jonesandy/tdd-exercises/test_coverage)
 
 This repository is for practicing TDD. The code contained in this repository will be accumulated from multiple practice assignments, tests and articles. Small summaries of each code file will be displayed below.
 
