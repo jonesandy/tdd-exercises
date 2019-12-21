@@ -23,6 +23,11 @@ describe Dice do
       dice.throw(2)
     end
 
+    it 'should roll four times' do
+      expect(dice).to receive(:roll).exactly(4).times
+      dice.throw(4)
+    end
+
   end
 
 end

@@ -5,7 +5,7 @@ class Dice
   end
 
   def throw(number)
-    2.times { roll }
+    number.times { roll }
   end
 
 end
