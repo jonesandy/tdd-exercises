@@ -2,6 +2,7 @@ class Student
 
   def initialize
     @names = []
+    @motivation = []
   end
 
   def save_name(name)
@@ -9,8 +10,7 @@ class Student
   end
 
   def track_motivation(score)
-    [3]
+    @motivation << score
   end
 
 end
-
