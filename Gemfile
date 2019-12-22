@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+ruby '= 2.5.6' 
+
 gem 'rubocop', '0.71.0'
 
 group :test do
