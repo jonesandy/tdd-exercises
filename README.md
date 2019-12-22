@@ -14,6 +14,7 @@ I will also use this repository as practice for setting up basic Travis files an
 *  [Examples](#examples)
     * [Student](#student)
     * [Dice](#dice)
+    * [Birthday](#birthday)
     
 
 ## Installation
@@ -108,3 +109,21 @@ I want to get the result of each dice roll
 This example keeps all methods inside one class. Ideally I would have broken out the throws into a seperate class that rolled multiple Dice objects to get score. But brief was to use one object to create the user stories.
 
 Code example found [here](lib/dice.rb). Test file found [here](spec/dice_spec.rb).
+
+### Birthday
+
+This excercise was to TDD a birthday tracker to enable someone to keep a list of their friends' birthday.
+
+User stories
+
+```
+As a User
+So I can wish people happy birthday and keep track of them
+I want to store all of my friends’ birthdays
+
+As a User
+So I can see who I have stored
+I want to see them all at once with their names and birthdays each on a line in a tidy format
+```
+
+Code example found [here](lib/birthday_tracker.rb). Test file found [here](spec/birthday_tracker_spec.rb).
