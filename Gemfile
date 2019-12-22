@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-ruby '= 2.5.6' 
+ruby '2.6.5' 
 
 gem 'rubocop', '0.71.0'
 
