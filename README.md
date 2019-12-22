@@ -13,22 +13,25 @@ I will also use this repository as practice for setting up basic Travis files an
 *  [Tech Stack](#tech-stack) 
 *  [Examples](#examples)
     * [Student](#student)
+    * [Dice](#dice)
     
 
 ## Installation
 
-Clone or download repository.   
+Clone or download repository to your local machine.      
 
 ```bash
 git clone
 ```
 
-Requires Ruby version > 2.6.5 
+Requires Ruby version 2.6.5 
    
 ```bash
 # to check ruby version
 ruby -v
 ```
+
+
 
 To install dependancies
 
@@ -59,7 +62,7 @@ rspec
 
 ### Student
 
-This exercise test drives basic methods for simple scenarios.
+This exercise test drives basic methods for two simple scenarios.
 
 ```
 As a student
@@ -72,7 +75,7 @@ I want an IRB application that stores my motivation ratings
 And I want to see the average of my last 3 ratings
 ```
 
-The process was to imagine how I would use the program, build tests for those scenarios and then write the code to make those tests pass. Once I have a passing test I can then refactor if needed.
+The process was to imagine how I would use the program first. Once I had the usages in mind, build tests for those scenarios and then write the code to make those tests pass. Once I have a passing test I can then refactor if needed.
 
 Code example found [here](lib/student.rb). Test file found [here](spec/student_spec.rb).
 
@@ -103,3 +106,5 @@ I want to get the result of each dice roll
 ```
 
 This example keeps all methods inside one class. Ideally I would have broken out the throws into a seperate class that rolled multiple Dice objects to get score. But brief was to use one object to create the user stories.
+
+Code example found [here](lib/dice.rb). Test file found [here](spec/dice_spec.rb).
