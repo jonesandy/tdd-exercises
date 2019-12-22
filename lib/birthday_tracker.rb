@@ -9,7 +9,9 @@ class BirthdayTracker
   end
 
   def print
-    puts "Paul McCartney 01/01/1980\nJohn Lennon 01/01/1981"
+    @list.each do |person|
+      puts "#{person[:name]} #{person[:birthday]}"
+    end
   end
 
 end
